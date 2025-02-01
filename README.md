@@ -1,12 +1,38 @@
-### Market_Basket_Analysis
-This is the code for a __Market Basket Analysis__ project I have carried out. 
-I have split the output into __three parts__ that I have organised as follows:
+### **GitHub Description for Market Basket Analysis**  
 
-1. In the [__first__](https://diegousai.io/2019/03/market-basket-analysis-part-1-of-3) chapter, I source, explore and format a complex dataset suitable for modelling with recommendation algorithms.
- The __DATA__ can be found here: [__Online Retail__](http://archive.ics.uci.edu/ml/datasets/online+retail)
- 
-2. For the [__second__](https://diegousai.io/2019/03/market-basket-analysis-part-2-of-3) part, I will apply various machine learning algorithms for Product Recommendation and select the best performing model. This will be done with the support of the __recommenderlab__ package.
- For Recommenderlab Package see:  [https://cran.r-project.org/package=recommenderlab](https://cran.r-project.org/package=recommenderlab)
- 
-3. In the [__third__](https://diegousai.io/2019/04/market-basket-analysis-part-3-of-3) and final instalment, I will implement the selected model in a Shiny Web Application. 
-  Find here the [__Product Recommender.__](https://diegousai.shinyapps.io/Product_Recommender/)
+🛍️ **Market Basket Analysis** is a **data mining technique** that identifies purchasing patterns by analyzing relationships between products in a transaction dataset. It helps businesses optimize inventory, improve product placement, and enhance cross-selling strategies.  
+
+### **Features**  
+✅ **Frequent Itemset Mining** – Identifies products often bought together.  
+✅ **Association Rule Mining** – Uses **Apriori, FP-Growth, and Eclat** algorithms.  
+✅ **Support, Confidence & Lift Analysis** – Evaluates rule strength.  
+✅ **Data Preprocessing & Cleaning** – Handles missing or inconsistent data.  
+✅ **Visualizations & Insights** – Heatmaps, network graphs, and bar charts.  
+✅ **Real-time Recommendation System (Optional)** – Suggests items to customers.  
+
+### **Tech Stack**  
+🧠 **Algorithms:** Apriori, FP-Growth, Eclat  
+📊 **Libraries:** Python (Pandas, NumPy, Scikit-learn, MLxtend)  
+📈 **Visualization:** Matplotlib, Seaborn, NetworkX  
+🗄️ **Database (Optional):** MySQL / PostgreSQL for transaction storage  
+🌐 **Web App (Optional):** Flask / Django for an interactive dashboard  
+
+🚀 **Usage:**  
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/your-username/market-basket-analysis.git
+   cd market-basket-analysis
+   ```
+2. Install dependencies:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Run the analysis:  
+   ```bash
+   python market_basket_analysis.py
+   ```
+4. View insights and generated association rules.  
+
+📌 **Ideal for retail businesses, e-commerce optimization, and data science projects.**  
+
+Would you like to add **real-time product recommendations** or a **web dashboard**? 🚀
